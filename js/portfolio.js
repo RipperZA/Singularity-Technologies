@@ -13,12 +13,12 @@ $(function ()
       },
       image:    {
         verticalFit: true,
-        
+
         tError:   '<a href="%url%">The image #%curr%</a> could not be loaded.',
         titleSrc: function (item)
                   {
                     return item.el.attr('title') +
-                      '<small>Larc Solutions Mobile Applicatiion</small>'
+                      '<small>Singularity Technologies - image preview</small>'
                   },
       },
     })
